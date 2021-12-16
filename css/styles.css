@@ -39,13 +39,13 @@ li a:hover {
 
 .logo {
   /* margin-top:200px; */
-  margin-bottom: 20px;
+  display: contents;
 }
 
 .bar {
-  margin: 0 auto;
-  height: var(--size-50);
-  width: 575px;
+  margin: 0 70px;
+  height: var(--size-40);
+  width: 585px;
   border-radius: 30px;
   border: 1px solid #dcdcdc;
 }
@@ -60,11 +60,13 @@ li a:hover {
 }
 
 .searchbar {
-  height: 45px;
+  height: 29px;
   border: none;
   width: 500px;
   font-size: 16px;
   outline: none;
+  padding: 0;
+  margin-left: 10px;
 }
 
 .voice {
