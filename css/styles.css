@@ -13,7 +13,7 @@ li a {
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: var(--size-14);
 }
 
 li a:hover {
@@ -39,14 +39,15 @@ li a:hover {
 
 .logo {
   /* margin-top:200px; */
-  display: contents;
+  /* display: contents; */
+  border: solid 2px black;
 }
 
 .bar {
   margin: 0 70px;
   height: var(--size-40);
   width: 585px;
-  border-radius: 30px;
+  border-radius: var(--size-30);
   border: 1px solid #dcdcdc;
 }
 
@@ -63,14 +64,14 @@ li a:hover {
   height: 29px;
   border: none;
   width: 500px;
-  font-size: 16px;
+  font-size: var(--size-16);
   outline: none;
   padding: 0;
-  margin-left: 10px;
+  margin-left: var(--size-10);
 }
 
 .voice {
-  height: 20px;
+  height: var(--size-20);
   position: relative;
   top: 5px;
   left: -5px;
@@ -80,11 +81,19 @@ li a:hover {
   position: relative;
   height: 24px;
   width: 24px;
-  top: 5px;
+  top: 8px;
   left: 10px;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-left: 360px;
+}
 
+.menu-items {
+  padding-right: 20px;
+}
 
 /* .buttons {
   margin-top:30px;
