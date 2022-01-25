@@ -39,7 +39,7 @@ body {
 
 .container {
   display: flex;
-  padding-top: 50px;
+  padding-top: 10px;
   align-items: center;
   justify-content: center;
   /* border: solid 2px black; */

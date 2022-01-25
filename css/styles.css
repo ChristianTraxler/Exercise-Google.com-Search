@@ -1,6 +1,7 @@
 ul {
   list-style-type: none;
   overflow: hidden;
+  padding-left: 100px;
 }
 
 li {
@@ -20,9 +21,12 @@ li a:hover {
   text-decoration: underline;
 }
 
+.links {
+  padding: 8px;
+}
+
 .grid {
   height: 23px;
-  position: relative;
   bottom: 4px;
 }
 
@@ -32,19 +36,18 @@ li a:hover {
   border: none;
   border-radius: 3px;
   padding: 7px 10px;
-  position: relative;
-  bottom: 7px;
   font-weight: bold;
 }
 
 /* Start of Search Bar section */
 
 .logo {
-  margin-right: 68px;
+  margin-right: 28px;
+  margin-left: 10px;
 }
 
 .bar {
-  margin: 0 90px 0 0px;
+  /* margin: 0 90px 0 0px; */
   height: var(--size-40);
   width: 700px;
   border-radius: var(--size-30);
@@ -80,11 +83,11 @@ li a:hover {
 }
 
 .vl {
-  border-left: solid 1px grey;
-  height: 20px;
   position: absolute;
-  left: 1000px;
-  top: 164px;
+  height: 20px;
+  left: 920px;
+  top: 46px;
+  border-left: solid 1px grey;
 }
 
 .voice {
@@ -109,7 +112,7 @@ li a:hover {
 .menu {
   display: flex;
   justify-content: center;
-  margin-left: 416px;
+  margin-left: 226px;
   margin-right: 148px;
   padding-bottom: 10px;
 }
@@ -125,7 +128,7 @@ li a:hover {
 }
 
 div > span:nth-child(13) {
-  margin-left: auto;
+  margin-left: 68px;
 }
 
 /* End of Menu section */
@@ -139,7 +142,7 @@ hr {
 .results {
   display: flex;
   justify-content: center;
-  margin-right: 80px;
+  margin-right: 172px;
   font-size: 12px;
   color: #87898C;
 }
