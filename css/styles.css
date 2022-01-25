@@ -37,11 +37,10 @@ li a:hover {
   font-weight: bold;
 }
 
+/* Start of Search Bar section */
+
 .logo {
-  /* margin-top:200px; */
-  /* display: contents; */
   margin-right: 68px;
-  /* border: solid 2px black; */
 }
 
 .bar {
@@ -89,7 +88,7 @@ li a:hover {
 }
 
 .voice {
-  height: var(--size-20);
+  height: var(--size-18);
   position: relative;
   top: 5px;
   left: 40px;
@@ -102,6 +101,10 @@ li a:hover {
   top: 5px;
   left: 55px;
 }
+
+/* End of Search Bar section */
+
+/* Start of Menu section */
 
 .menu {
   display: flex;
@@ -125,9 +128,61 @@ div > span:nth-child(13) {
   margin-left: auto;
 }
 
+/* End of Menu section */
+
 hr {
   width: 98%;
 }
+
+/* Start of Results section */
+
+.results {
+  display: flex;
+  justify-content: center;
+  margin-right: 80px;
+  font-size: 12px;
+  color: #87898C;
+}
+
+
+
+/* End of Results section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .buttons {
   margin-top:30px;
