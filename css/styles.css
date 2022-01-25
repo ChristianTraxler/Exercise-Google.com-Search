@@ -40,13 +40,14 @@ li a:hover {
 .logo {
   /* margin-top:200px; */
   /* display: contents; */
-  border: solid 2px black;
+  margin-right: 68px;
+  /* border: solid 2px black; */
 }
 
 .bar {
-  margin: 0 70px;
+  margin: 0 90px 0 0px;
   height: var(--size-40);
-  width: 585px;
+  width: 700px;
   border-radius: var(--size-30);
   border: 1px solid #dcdcdc;
 }
@@ -67,32 +68,65 @@ li a:hover {
   font-size: var(--size-16);
   outline: none;
   padding: 0;
-  margin-left: var(--size-10);
+  margin-top: 5px;
+  margin-left: var(--size-16);
+}
+
+.g_close {
+  height: 15px;
+  width: 15px;
+  margin-left: 50px;
+  top: 2px;
+  position: relative;
+}
+
+.vl {
+  border-left: solid 1px grey;
+  height: 20px;
+  position: absolute;
+  left: 1000px;
+  top: 164px;
 }
 
 .voice {
   height: var(--size-20);
   position: relative;
   top: 5px;
-  left: -5px;
+  left: 40px;
 }
 
 .magnify {
   position: relative;
-  height: 24px;
-  width: 24px;
-  top: 8px;
-  left: 10px;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  left: 55px;
 }
 
 .menu {
   display: flex;
   justify-content: center;
-  margin-left: 360px;
+  margin-left: 416px;
+  margin-right: 148px;
+  padding-bottom: 10px;
+}
+
+.g-icons {
+  width: 16px;
+  height: 14px;
+  margin-right: 4px;
 }
 
 .menu-items {
   padding-right: 20px;
+}
+
+div > span:nth-child(13) {
+  margin-left: auto;
+}
+
+hr {
+  width: 98%;
 }
 
 /* .buttons {
