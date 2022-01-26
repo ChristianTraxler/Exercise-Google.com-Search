@@ -139,15 +139,41 @@ hr {
 
 /* Start of Results section */
 
-.results {
+.speed {
   display: flex;
   justify-content: center;
-  margin-right: 172px;
+  margin-right: 342px;
+  margin-bottom: 20px;
   font-size: 12px;
   color: #87898C;
 }
 
+.result {
+  margin-left: 331px;
+  font-size: 12px;
+}
 
+.arrow-right {
+  width: 14px;
+  position: absolute;
+  top: 177px;
+}
+
+.subsearch {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.subsearch2 {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.arrow-drop {
+  width: 18px;
+  position: absolute;
+  top: 175px;
+}
 
 /* End of Results section */
 
