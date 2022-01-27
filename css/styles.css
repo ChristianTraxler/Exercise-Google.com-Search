@@ -49,6 +49,7 @@ li a:hover {
 .bar {
   /* margin: 0 90px 0 0px; */
   height: var(--size-40);
+  min-width: 700px;
   width: 700px;
   border-radius: var(--size-30);
   border: 1px solid #dcdcdc;
@@ -112,8 +113,8 @@ li a:hover {
 .menu {
   display: flex;
   justify-content: center;
-  margin-left: 226px;
-  margin-right: 148px;
+  min-width: 700px;
+  margin-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -135,6 +136,7 @@ div > span:nth-child(13) {
 
 hr {
   width: 98%;
+  margin-top: 20px;
 }
 
 /* Start of Results section */
@@ -142,6 +144,7 @@ hr {
 .speed {
   display: flex;
   justify-content: center;
+  margin-top: 12px;
   margin-right: 342px;
   margin-bottom: 20px;
   font-size: 12px;
@@ -156,7 +159,7 @@ hr {
 .arrow-right {
   width: 14px;
   position: absolute;
-  top: 177px;
+  top: 171px;
 }
 
 .subsearch {
@@ -172,7 +175,29 @@ hr {
 .arrow-drop {
   width: 18px;
   position: absolute;
-  top: 175px;
+  top: 169px;
+}
+
+.result2 {
+  display: flex;
+  margin-top: 8px;
+  margin-left: 331px;
+  font-size: 16px;
+  color: blue;
+}
+
+.result3 {
+  display: block;
+  margin: 6px 332px;
+}
+
+.search_result {
+  margin-top: 8px;
+  line-height: 18px;
+}
+
+p {
+  margin-top: 6px;
 }
 
 /* End of Results section */
