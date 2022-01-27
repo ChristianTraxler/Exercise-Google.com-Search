@@ -202,6 +202,18 @@ hr {
   font-size: 12px;
 }
 
+.arrow-right2 {
+  width: 14px;
+  position: absolute;
+  top: 280px;
+}
+
+.arrow-drop2 {
+  width: 18px;
+  position: absolute;
+  top: 278px;
+}
+
 /* End of Results section */
 
 
