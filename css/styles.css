@@ -196,8 +196,10 @@ hr {
   line-height: 18px;
 }
 
-p {
+.p-results {
   margin-top: 6px;
+  line-height: 18px;
+  font-size: 12px;
 }
 
 /* End of Results section */
