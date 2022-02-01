@@ -44,3 +44,7 @@ body {
   justify-content: center;
   /* border: solid 2px black; */
 }
+
+.container2 {
+  margin-top: 36px;
+}

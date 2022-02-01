@@ -139,7 +139,7 @@ hr {
   margin-top: 20px;
 }
 
-/* Start of Results section */
+/* Start of First Results section */
 
 .speed {
   display: flex;
@@ -152,71 +152,99 @@ hr {
 }
 
 .result {
+  display: flex;
+  align-items: center;
   margin-left: 331px;
   font-size: 12px;
 }
 
-.arrow-right {
+.arws-right {
   width: 14px;
-  position: absolute;
-  top: 171px;
 }
 
-.subsearch {
-  margin-left: 10px;
-  font-size: 12px;
-}
-
-.subsearch2 {
-  margin-left: 10px;
-  font-size: 12px;
-}
-
-.arrow-drop {
+.arws-down {
   width: 18px;
-  position: absolute;
-  top: 169px;
 }
 
-.result2 {
+.result-title {
   display: flex;
-  margin-top: 8px;
+  margin-top: 6px;
   margin-left: 331px;
   font-size: 16px;
   color: blue;
 }
 
-.result3 {
+.result2 {
   display: block;
-  margin: 4px 332px;
-}
-
-.search_result {
-  margin-top: 8px;
-  line-height: 18px;
+  margin: 4px 332px 24px;
 }
 
 .p-results {
   margin-top: 5px;
+  margin-bottom: -8px;
   line-height: 18px;
   font-size: 12px;
 }
 
-.arrow-right2 {
-  width: 14px;
-  position: absolute;
-  top: 280px;
+.sub-results {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: blue;
 }
 
-.arrow-drop2 {
-  width: 18px;
-  position: absolute;
-  top: 278px;
+.dot {
+  width: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-/* End of Results section */
+/* End of First Results section */
+
+/* Start of "People Also Ask" Section */
+
+table {
+
+}
+
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin-left: 330px;
+}
+
+th {
+  float: left;
+  margin: 0;
+  border: none;
+}
+
+.table-header {
+  font-size: 16px;
+}
+
+.table, .table-header {
+  padding: 10px;
+}
+
+.arrow-down {
+  width: 20px;
+  margin-left: 282px;
+  float: right;
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  float: right;
+  margin-top: 4px;
+  margin-right: 325px;
+  font-size: 10px;
+}
 
 
+
+/* End of "People Also Ask" Section */
 
 
 
