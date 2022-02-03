@@ -14,7 +14,9 @@
   --grad-2:#7DBCFF;
 
   --size-10: 0.625rem;
+  --size-12: 0.75rem;
   --size-14: 0.875rem;
+  --size-15: 0.9375rem;
   --size-16: 1rem;
   --size-18: 1.125rem;
   --size-20: 1.25rem;
@@ -39,10 +41,9 @@ body {
 
 .container {
   display: flex;
-  padding-top: 10px;
+  padding-top: var(--size-10);
   align-items: center;
   justify-content: center;
-  /* border: solid 2px black; */
 }
 
 .container2 {
