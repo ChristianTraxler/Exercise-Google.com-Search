@@ -30,8 +30,9 @@ li a:hover {
 .user {
   display: flex;
   justify-content: center;
-  width: 30%;
+  width: 25%;
   border-radius: 20px;
+  margin-top: 5px;
   margin-right: 30px;
   float: right;
 }
@@ -75,7 +76,7 @@ li a:hover {
 .g_close {
   height: 15px;
   width: 15px;
-  margin-left: 50px;
+  margin-left: 43px;
   top: 2px;
   position: relative;
 }
@@ -83,7 +84,7 @@ li a:hover {
 .vl {
   position: absolute;
   height: 20px;
-  left: 920px;
+  left: 912px;
   top: 46px;
   border-left: solid 1px grey;
 }
@@ -200,9 +201,9 @@ hr {
 
 /* Start of "People Also Ask" Section */
 
-table {
+/* table {
 
-}
+} */
 
 table, th, td {
   border: 1px solid grey;
@@ -239,11 +240,21 @@ th {
   font-size: 10px;
 }
 
-
-
 /* End of "People Also Ask" Section */
 
+/* Start of Footer */
 
+.next {
+  display: flex;
+  margin: auto;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+
+/* End of Footer */
 
 
 
